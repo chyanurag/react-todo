@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', monospace;
+}
+.container{
+	width: 70%;
+	margin: auto;
+}
+h1,h2,h3{
+	text-align: center;
+	margin: 1rem;
+	font-size: 2em;
+}
+input{
+	margin: auto;
+	padding: 1rem;
+	margin: 2rem;
+	width: 80%;
+	font-size: 1.2rem;
+}
+input::placeholder{
+	font-size: 1.2rem;
+}
+button{
+	padding: 1rem;
+	background-color: indigo;
+	font-size: 1.2rem;
+	border: none;
+}
+.todo-input{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.todo{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
