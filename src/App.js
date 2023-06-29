@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Todo from './Todo.js'
-import TodoInput from './TodoInput.js'
+import Todo from './components/Todo.js'
+import TodoInput from './components/TodoInput.js'
 
 export default function App(){
 	const [todo, setTodo] = useState("");
